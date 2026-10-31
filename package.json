@@ -1,0 +1,22 @@
+{
+  "name": "koishi-plugin-fish-admin",
+  "description": "大肥鱼群聊管理：登记、限流、撤回、禁言、统计",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "devDependencies": {},
+  "peerDependencies": {
+    "koishi": "^4.18.7"
+  }
+}
