@@ -1,21 +1,44 @@
 {
   "name": "koishi-plugin-fish-admin",
-  "description": "大肥鱼群聊管理：登记、限流、撤回、禁言、统计",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "description": "大肥鱼群聊管理（v0.1.0 预览：登记、审批、观察、统计）",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
   "license": "MIT",
-  "scripts": {},
+  "author": "inscripoem",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inscripoem/koishi-plugin-fish-admin.git"
+  },
+  "homepage": "https://github.com/inscripoem/koishi-plugin-fish-admin#readme",
+  "bugs": {
+    "url": "https://github.com/inscripoem/koishi-plugin-fish-admin/issues"
+  },
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "qq",
+    "onebot",
+    "moderation",
+    "rate-limit"
   ],
-  "devDependencies": {},
+  "engines": {
+    "node": ">=18"
+  },
+  "koishi": {
+    "service": {
+      "required": [
+        "database"
+      ]
+    }
+  },
   "peerDependencies": {
     "koishi": "^4.18.7"
   }
