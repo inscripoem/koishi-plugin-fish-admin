@@ -1,7 +1,7 @@
 # fish-admin 实施计划
 
-> 最后更新：2026-11-01
-> 当前阶段：v0.1.0 发布准备（预览，不在群内上线）
+> 最后更新：2026-11-04
+> 当前阶段：v0.1.0 已发布（预览，不在群内上线）
 > 插件目录：`external/fish-admin`
 > 隐私约定：计划、代码、测试数据不写真实群号/QQ；运行时日志对 ID 做掩码。
 
@@ -27,7 +27,7 @@
 | 7 群级红线 | ⬜ roadmap | 15 次事件 → 全群停鱼 |
 | 8 报表 + 命令补全 | 🟡 部分完成 | `fish.report` 已有；日报/周报、审计、violations 未做 |
 | 9 dry-run + 验收 | ⬜ 未开始 | 不在群内上线，跳过 |
-| 10 v0.1.0 发布 | 🟡 进行中 | GitHub 源码发布准备；README/CHANGELOG/LICENSE/package 元数据 |
+| 10 v0.1.0 发布 | ✅ 完成 | GitHub public 仓库，默认分支 main，tag v0.1.0 |
 
 状态标记：✅ 完成 / 🟡 进行中 / ⬜ 未开始 / ⚠️ 阻塞。
 
@@ -569,4 +569,5 @@ v1 允许在私聊、管理员群或目标群登记。在目标群执行时省�
 | 2026-10-31 | 规则开关 | `chainGuard` 保留开关；`sameFishStreak` 改为 `{ enabled, limit }`，默认关闭；`fish.rules` 增加事件窗口解释；`registration` 描述改为已实现 |
 | 2026-10-31 | 审批通知 | 无管理员频道时尝试私聊 `adminUsers`；私聊 `fish.approve/reject <id>` 不需要 `--group`；构建通过 |
 | 2026-11-01 | v0.1.0 发布准备 | 范围定为 preview：只发布登记/审批/观察/报表；`mode` 限制为 dry-run；`approvalDmFallback` 开关；补 README/CHANGELOG/LICENSE/package 元数据 |
+| 2026-11-04 | GitHub 发布 | public 仓库 `inscripoem/koishi-plugin-fish-admin`；默认分支 main；tag `v0.1.0`；未发 npm |
 | 待补 | 只读观察 | 今晚保持 `dry-run`，用 `fish.report` 看目标群实际消息分布 |

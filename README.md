@@ -2,6 +2,8 @@
 
 大肥鱼群聊管理插件（v0.1.0 预览版）。
 
+仓库：<https://github.com/inscripoem/koishi-plugin-fish-admin>
+
 > **预览版说明**：v0.1.0 只包含登记、审批、观察和统计。它**不会自动撤回、禁言或踢人**，`fish.mode` 也只接受 `dry-run`。不要直接部署到生产群。
 
 ## 已实现
